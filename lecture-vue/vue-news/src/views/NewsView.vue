@@ -5,8 +5,14 @@
 </template>
 
 <script>
-export default {
+import axios from 'axios';
 
+export default {
+    created() {
+        axios.get('users')
+            .then()
+            .catch()
+    }
 }
 </script>
 
